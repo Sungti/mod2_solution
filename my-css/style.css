@@ -20,10 +20,10 @@ header {
 
 /* Style the sections */
 .section {
-    border: 1px solid #000; /* Black border 1px thick */
+    border: 1px solid #eb9671; /* Black border 1px thick */
     margin: 10px; /* Adjust spacing between sections */
     padding: 20px; /* Adjust spacing between text and section edges */
-    background-color: #f0f0f0; /* Set your desired section background color */
+    background-color: #d8bebc; /* Set your desired section background color */
     position: relative; /* Required for absolute positioning of titles */
 }
 

@@ -3,25 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Menu</title>
+    <link rel="stylesheet" href="my-css/style.css">
+    <style>
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 10px;
+            margin-top: 40px;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%; /* Adjust the width as needed */
+            margin-top: 50px; /* Add space between the menu and the boxes */
+        }
+
+        .section {
+            border: 1px solid #ccc;
+            padding: 50px;
+            width: calc(33.33% - 10px); /* Set the width of each section with space between them */
+            margin: 10px;
+            position: relative;
+        }
+
+        .section-title {
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Your Page Heading</h1>
+        <h1>Our Menu</h1>
     </header>
-    <section class="section">
-        <div class="section-title">Chicken</div>
-        <p>Some text goes here...</p>
-    </section>
-    <section class="section">
-        <div class="section-title">Beef</div>
-        <p>Some text goes here...</p>
-    </section>
-    <section class="section">
-        <div class="section-title">Sushi</div>
-        <p>Some text goes here...</p>
-    </section>
+    <div class="menu-container">
+        <section class="section">
+            <div class="section-title">Chicken</div>
+            <h2>Chicken fresh chicken good chicken bad  chicken chicken chicken chicken chicken chicken  </h2>
+        </section>
+        <section class="section">
+            <div class="section-title">Beef</div>
+            <h2>Why did the cow bring a ladder to the barbecue? Because it wanted to see what all the steaks were up to on the grill! It turns out, cows are not only great at moo-ving, but they're also experts at moo-nitoring the beefy gossip in the world of sizzling meats</h2>
+        </section>
+        <section class="section">
+            <div class="section-title">Sushi</div>
+            <h2>Sushi is like the Picasso of the culinary world – a masterpiece of artistry and flavor, rolled into one delectable bite. Imagine a tiny, edible canvas where a skilled sushi chef transforms the freshest fish and perfectly seasoned rice into miniature works of edible art.</h2>
+        </section>
+    </div>
 </body>
 </html>
-
