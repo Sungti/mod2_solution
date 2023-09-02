@@ -1,38 +1,38 @@
-/* Reset some default styles for consistency */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply basic styles to the body */
+
 body {
     font-family: Arial, sans-serif; /* Optional: Set a custom font-family */
 }
 
-/* Style the header */
+
 header {
-    background-color: #333; /* Set your desired background color */
-    color: white; /* Set text color */
+    background-color: #333; 
+    color: white; 
     text-align: center;
     padding: 20px;
 }
 
-/* Style the sections */
+
 .section {
-    border: 1px solid #eb9671; /* Black border 1px thick */
-    margin: 10px; /* Adjust spacing between sections */
-    padding: 20px; /* Adjust spacing between text and section edges */
-    background-color: #d8bebc; /* Set your desired section background color */
-    position: relative; /* Required for absolute positioning of titles */
+    border: 1px solid #eb9671; 
+    margin: 10px; 
+    padding: 20px; 
+    background-color: #d8bebc; 
+    position: relative; 
 }
 
-/* Style the section titles */
+
 .section-title {
-    position: absolute; /* Position titles relative to their sections */
+    position: absolute; 
     top: 0;
     right: 0;
-    background-color: #333; /* Set a unique color for titles */
-    color: white; /* Set text color for titles */
-    padding: 5px 10px; /* Adjust padding for titles */
+    background-color: #333; 
+    color: white; 
+    padding: 5px 10px; 
 }
