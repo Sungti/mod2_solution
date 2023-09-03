@@ -26,13 +26,214 @@ header {
     background-color: #0b0b0b; 
     position: relative; 
 }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
 
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px 40px;
+            margin-top: 40px;
+            border: 5px solid rgb(204, 149, 78);
+        }
 
-.section-title {
-    position: absolute; 
-    top: 0;
-    right: 0;
-    background-color: #333; 
-    color: rgb(0, 0, 0); 
-    padding: 5px 10px; 
+        .menu-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%; 
+            margin-top: 50px; 
+        }
+
+        .section {
+            border: 5px solid rgb(162, 103, 1);
+            padding: 70px;
+            width: calc(36% - 30px); 
+            margin: 10px;
+            position: relative;
+        }
+
+        .section1{
+            background-color: rgb(255, 216, 154);
+            color: rgb(0, 0, 0);
+            padding: 10px 60px;
+            position: absolute;
+            top: 0px;
+            left: 53.3%;
+            border-top: 0px solid rgb(162, 103, 1);
+            border-right: 0px solid rgb(162, 103, 1);
+            border-bottom: 5px solid rgb(162, 103, 1);
+            border-left: 5px solid rgb(162, 103, 1);
+        }
+        .section2{
+            background-color: #e4b0fe;
+            color: rgb(0, 0, 0);
+            padding: 10px 70px;
+            position: absolute;
+            top: 0px;
+            left: 58%;
+            border-top: 0px solid rgb(162, 103, 1);
+            border-right: 0px solid rgb(162, 103, 1);
+            border-bottom: 5px solid rgb(162, 103, 1);
+            border-left: 5px solid rgb(162, 103, 1);
+        }
+        .section3{
+            background-color: #adffab;
+            color: rgb(0, 0, 0);
+            padding: 10px 70px;
+            position: absolute;
+            top: 0px;
+            left: 55.3%;
+            border-top: 0px solid rgb(162, 103, 1);
+            border-right: 0px solid rgb(162, 103, 1);
+            border-bottom: 5px solid rgb(162, 103, 1);
+            border-left: 5px solid rgb(162, 103, 1);
+        }
+        ul {
+            color: white;
+            list-style-type: none; 
+            font-size: 30px;
+            text-align: left; 
+           
+        }
+        
+        ul li::before {
+            content: '\2022'; 
+            color: white; 
+            margin-right: 10px; 
+            display: inline-block; 
+            width: 1em; 
+            vertical-align: middle; 
+        }
+       
+        @media (max-width: 600px) {
+            .menu-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .section {
+                width: 100%;
+                padding: 50px;
+                font-size: 70%;
+            }
+        
+            .section1
+            {
+                background-color: #adffab;
+                color: rgb(0, 0, 0);
+                padding: 2px;
+                position: absolute;
+                top: 0px;
+                right: 0px; 
+                border-top: 0px solid rgb(162, 103, 1);
+                border-bottom: 2px solid rgb(162, 103, 1);
+                border-left: 2px solid rgb(162, 103, 1);
+                border-right: 0px solid rgb(162, 103, 1);
+                margin-top: 0%;
+            }
+            .section2
+            {
+                background-color: #e4b0fe;
+                    color: rgb(0, 0, 0);
+                    padding: 2px;
+                    position: absolute;
+                    top: 0px;
+                    right: 0px; 
+                    border-top: 0px solid rgb(162, 103, 1);
+                    border-bottom: 2px solid rgb(162, 103, 1);
+                    border-left: 2px solid rgb(162, 103, 1);
+                    border-right: 0px solid rgb(162, 103, 1);
+                    margin-top: 0%;
+            }
+            .section3{
+                background-color: #adffab;
+                color: rgb(0, 0, 0);
+                padding: 2px;
+                position: absolute;
+                top: 0px;
+                right: 0px; 
+                border-top: 0px solid rgb(162, 103, 1);
+                border-bottom: 2px solid rgb(162, 103, 1);
+                border-left: 2px solid rgb(162, 103, 1);
+                border-right: 0px solid rgb(162, 103, 1);
+                margin-top: 0%;
+            }
+    
+ul {
+    font-size: 16px;
+    text-align: left; 
 }
+
+ul li::before {
+    margin-right: 10px; 
+    display: inline-block; 
+    width: 1em; 
+    vertical-align: middle;
+}
+
+
+
+       }
+       @media (min-width: 601px) and (max-width: 1800px) {
+     
+        ul {
+            font-size: 24px;
+            text-align: left;
+            padding-left: 30px; 
+            line-height: 1.5; 
+        }
+    
+        .section {
+            width: 100%;
+            padding: 50px;
+            font-size: 70%;
+        }
+    
+        .section1{
+            background-color: rgb(255, 216, 154);
+                color: rgb(0, 0, 0);
+                padding: 2px;
+                position: absolute;
+                top: 0px;
+                right: 0px; 
+                border-top: 0px solid rgb(162, 103, 1);
+                border-bottom: 2px solid rgb(162, 103, 1);
+                border-left: 2px solid rgb(162, 103, 1);
+                border-right: 0px solid rgb(162, 103, 1);
+                margin-top: 0%;
+        }
+
+        .section2
+        {
+            background-color: #e4b0fe;
+                color: rgb(0, 0, 0);
+                padding: 2px;
+                position: absolute;
+                top: 0px;
+                right: 0px; 
+                border-top: 0px solid rgb(162, 103, 1);
+                border-bottom: 2px solid rgb(162, 103, 1);
+                border-left: 2px solid rgb(162, 103, 1);
+                border-right: 0px solid rgb(162, 103, 1);
+                margin-top: 0%;
+        }
+        .section3 {
+            background-color: #adffab;
+            color: rgb(0, 0, 0);
+            padding: 2px;
+            position: absolute;
+            top: 0px;
+            right: 0px; 
+            border-top: 0px solid rgb(162, 103, 1);
+            border-bottom: 2px solid rgb(162, 103, 1);
+            border-left: 2px solid rgb(162, 103, 1);
+            border-right: 0px solid rgb(162, 103, 1);
+            margin-top: 0%;
+        }
+    }
+    
