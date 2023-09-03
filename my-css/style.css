@@ -23,7 +23,7 @@ header {
     border: 1px solid #eb9671; 
     margin: 10px; 
     padding: 20px; 
-    background-color: #d8bebc; 
+    background-color: #0b0b0b; 
     position: relative; 
 }
 
@@ -33,6 +33,6 @@ header {
     top: 0;
     right: 0;
     background-color: #333; 
-    color: white; 
+    color: rgb(0, 0, 0); 
     padding: 5px 10px; 
 }

@@ -15,10 +15,11 @@
         }
 
         header {
-            background-color: #333;
+            background-color: #000000;
             color: white;
-            padding: 10px 10px;
+            padding: 20px 40px;
             margin-top: 40px;
+            border: 5px solid rgb(204, 149, 78);
         }
 
         .menu-container {
@@ -29,40 +30,63 @@
         }
 
         .section {
-            border: 1px solid #ccc;
-            padding: 50px;
-            width: calc(33.33% - 10px); 
+            border: 10px solid #cc954e;
+            padding: 70px;
+            width: calc(36% - 30px); 
             margin: 10px;
             position: relative;
         }
 
         .section-title {
-            background-color: #333;
-            color: white;
-            padding: 5px 10px;
+            background-color: #000000;
+            color: rgb(204, 149, 78);
+            padding: 10px 70px;
             position: absolute;
-            top: 10px;
+            top: 0px;
             left: 50%;
-            transform: translateX(-50%);
+            border: 5px solid rgb(204, 149, 78);
+        }
+        ul {
+            color: white;
+            list-style-type: disc;
+            font-size: 30px; 
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Our Menu</h1>
+        <h1 style="color: rgb(255, 255, 255);">Our Menu</h1>
     </header>
     <div class="menu-container">
         <section class="section">
-            <div class="section-title">Chicken</div>
-            <h2>Chicken fresh chicken good chicken bad  chicken chicken chicken chicken chicken chicken  </h2>
+            <div class="section-title"><h1 style="color: white;">Chicken</h1></div>
+            <ul style="color: white; list-style-type: disc;">
+                <li>Fresh Grilled Chicken</li>
+                <li>Spicy Fried Chicken</li>
+                <li>Chicken Tenders</li>
+                <li>Chicken Wings</li>
+                <li>Chicken Salad</li>
+            </ul>
         </section>
         <section class="section">
-            <div class="section-title">Beef</div>
-            <h2>Why did the cow bring a ladder to the barbecue? Because it wanted to see what all the steaks were up to on the grill! It turns out, cows are not only great at moo-ving, but they're also experts at moo-nitoring the beefy gossip in the world of sizzling meats</h2>
+            <div class="section-title"><h1 style="color: white;">Beef</h1></div>
+            <ul style="color: white; list-style-type: disc;">
+                <li>Grilled Steak</li>
+                <li>Beef Burgers</li>
+                <li>Beef Tacos</li>
+                <li>Beef Stir-Fry</li>
+                <li>Beef Kebabs</li>
+            </ul>
         </section>
         <section class="section">
-            <div class="section-title">Sushi</div>
-            <h2>Sushi is like the Picasso of the culinary world – a masterpiece of artistry and flavor, rolled into one delectable bite. Imagine a tiny, edible canvas where a skilled sushi chef transforms the freshest fish and perfectly seasoned rice into miniature works of edible art.</h2>
+            <div class="section-title"><h1 style="color: white;">Sushi</h1></div>
+            <ul style="color: white; list-style-type: disc;">
+                <li>Sashimi Platter</li>
+                <li>Sushi Rolls</li>
+                <li>Nigiri Sushi</li>
+                <li>Tempura Sushi</li>
+                <li>Sushi Combo</li>
+            </ul>
         </section>
     </div>
 </body>
